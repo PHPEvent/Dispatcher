@@ -1,0 +1,25 @@
+{
+    "name": "potter/dispatcher",
+    "description": "PHP PSR-14 Event Dispatcher Implementation",
+    "type": "library",
+    "require": {
+        "php": ">=8.3",
+        "psr/event-dispatcher": "^1.0",
+        "symfony/contracts": "^3.5",
+        "symfony/event-dispatcher": "^7.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Potter\\Event\\Dispatcher\\": "src/Potter/Event/Dispatcher/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jay Potter",
+            "email": "j@ypotter.ca"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
