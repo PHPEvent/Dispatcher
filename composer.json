@@ -1,5 +1,5 @@
 {
-    "name": "potter/dispatcher",
+    "name": "php-event/dispatcher",
     "description": "PHP PSR-14 Event Dispatcher Implementation",
     "type": "library",
     "require": {
@@ -11,7 +11,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Potter\\Event\\Dispatcher\\": "src/Potter/Event/Dispatcher/"
+            "PHPEvent\\Dispatcher\\": "src/PHPEvent/Dispatcher/"
         }
     },
     "authors": [

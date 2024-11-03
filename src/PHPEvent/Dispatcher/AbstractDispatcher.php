@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Potter\Event\Dispatcher;
+namespace PHPEvent\Dispatcher;
 
 use Symfony\Component\EventDispatcher\EventDispatcher;
 
